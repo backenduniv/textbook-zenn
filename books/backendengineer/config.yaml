@@ -1,4 +1,4 @@
-title: "本のタイトル"
+title: "ソフトウェアエンジニアになろう【バックエンド編】"
 summary: "本の紹介文"
 topics: ["Ruby on Rails", "Ruby", "Docker"] # トピック（5つまで）
 published: false # falseだと下書き
