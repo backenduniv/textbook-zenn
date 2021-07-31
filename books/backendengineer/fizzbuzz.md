@@ -1,3 +1,7 @@
+---
+title: "テスト駆動開発を体験しよう | FizzBuzz"
+---
+
 # Fizz Buzz
 
 いよいよ本格的なプログラムを記述していきます。
@@ -7,16 +11,16 @@ Fizz Buzzです！
 
 ## セットアップ
 
-`~/code/burning-tech`に移動してください。
+`~/code/backenduniv`に移動してください。
 
 ```sh
-$ cd ~/code/burning-tech
+$ cd ~/code/backenduniv
 ```
 
 教材リポジトリをクローンします。
 
 ```sh
-$ git clone https://github.com/burning-tech/fizzbuzz-training.git
+$ git clone https://github.com/backenduniv/fizzbuzz-training.git
 $ cd fizzbuzz-training
 ```
 
@@ -1407,5 +1411,3 @@ TDDのパワーを実感できたでしょうか?
 気を抜くとテストコードを先に書くのを忘れてしまいます。
 
 是非、習慣化するまでレッド/グリーン/リファクタリングを意識してTDDを実践してみてください。
-
-その他、テストについてのノウハウやパターン等はAppendixを参照してください。
