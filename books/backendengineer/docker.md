@@ -270,7 +270,7 @@ docker.io/library/ubuntu:latest
 
 `Preferences...`を押してください。
 
-![Docker Task Bar](./../public/docker/task-bar.png)
+![Docker Task Bar](https://storage.googleapis.com/zenn-user-upload/f55db320c597f96145affc86.png)
 <img src="./../public/docker/task-bar.png" width="320" alt="Docker Task Bar">
 
 `Docker Engine` を選択してください。
