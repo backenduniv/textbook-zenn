@@ -1,0 +1,6 @@
+# burning-techで指定する技術用語
+rules:
+  - expected: ターミナル
+    pattern: terminal
+  - expected: ターミナル
+    pattern: Terminal

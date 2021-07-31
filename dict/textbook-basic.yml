@@ -1,0 +1,8 @@
+# burning-techで使用される一般用語
+rules:
+  - expected: taro@example.com
+    pattern: nas.silver.bullet@gmail.com
+  - expected: taro
+    pattern: nas
+  - expected: taro
+    pattern: yukihiro

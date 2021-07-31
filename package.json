@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "lint": "npx textlint 'pages/*.md'",
+    "fix:lint": "npx textlint --fix 'pages/*.md'",
+    "ci": "npm run fix:lint && npm run lint"
+  },
+  "devDependencies": {
+    "textlint": "^12.0.0",
+    "textlint-rule-preset-smarthr": "^1.4.0",
+    "textlint-rule-prh": "^5.3.0"
+  }
+}

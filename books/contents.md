@@ -1,0 +1,155 @@
+# 目次
+
+## Main
+- 準備
+  - はじめに
+  - 本コースで何ができるようになるのか
+  - 本コースの進め方
+  - 使用するツールについて
+- Visual Studio Code
+  - Visual Studio Codeとは
+  - ダウンロード
+  - 設定
+- ターミナル
+  - ターミナルとは
+  - 起動方法
+  - ディレクトリについて
+  - パスについて
+  - cd
+  - pwd
+  - ls
+  - mkdir
+  - touch
+  - cp
+  - rm
+  - cat
+  - echo
+  - なぜみんなターミナルを使わないのか
+- Git
+  - Gitとは
+  - セットアップ
+    - init
+    - clone
+  - スナップショット
+    - add
+    - status
+    - diff
+    - commit
+    - reset
+    - log
+  - ブランチ
+    - branch
+    - switch
+    - checkout
+  - マージ
+    - merge
+  - シェア
+    - fetch
+    - remote
+    - push
+    - pull
+- GitHub
+  - GitHubとは
+  - アカウント登録
+  - リポジトリ作成
+  - Gitと合わせて一連のフローを体感してみる
+- コンピュータ
+  - CPU(Central Processing Unit)
+  - メモリ
+  - I/O
+  - ファイルシステム
+  - OS
+    - OSの管理対象
+  - サーバー
+    - サーバーとして利用するOSの要件
+- ソフトウェア
+  - バイナリ
+  - コンパイル
+- Docker
+  - 仮想環境
+  - コンテナ
+  - インストール
+  - Dockerの練習
+- Relational Database
+  - Relational Databaseとは
+  - 環境構築
+  - SQL
+    - SQLとは
+    - Data Definition Language
+    - Data Manipulation Language
+    - データと情報の違い
+  - 型とは
+    - int
+    - varchar
+    - text
+    - datetime
+  - SQL実践
+    - CREATE
+    - INSERT
+    - SELECT
+    - UPDATE
+    - DELETE
+    - DROP
+  - 制約
+    - PRIMARY KEY
+    - UNIQUE KEY
+    - FOREIGN KEY
+  - インデックス
+    - インデックスとは
+    - INDEXの付与
+    - EXPLAIN
+- Ruby
+  - プログラミング言語とは
+  - プログラミング言語の種類
+  - Rubyで何ができるのか
+    - Webアプリケーション
+      - cookpad
+      - Airbnb
+      - GitLab
+  - 環境構築
+  - Rubyプログラムの実行
+  - ERB
+    - チェリー本を参照
+  - MySQL接続もやる
+- Web
+  - Webのしくみ
+  - クライアントとサーバー
+  - Webを理解するうえで必要な要素
+  - ググっているときに起こっていること
+- Ruby on Rails入門
+  - Railsチュートリアル等々参照
+  - MVCアーキテクチャ
+  - テストコード
+  - データモデリング
+  - API開発
+  - アプリケーション開発のユースケース
+    - パターンをいくつかできたら
+- おわりに
+  - これからのきみたちへ
+
+## Appendix
+
+- ターミナル
+  - パイプ
+  - sed
+  - curl
+  - prompt
+  - dotfiles
+  - ghq
+- VSCode
+- Application Archtecture
+- Git
+  - stash
+  - rebase
+  - now
+  - ブランチ戦略
+    - Git flow
+    - GitHub flow
+    - トランクベース開発
+- GitHub Action
+- Pomodoro Technique
+- tmux
+- 参考書
+- 情報
+- コンピュータサイエンス
+- Markdown
