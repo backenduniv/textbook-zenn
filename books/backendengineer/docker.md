@@ -266,10 +266,11 @@ docker.io/library/ubuntu:latest
 
 そうなってしまった場合は、メニューバーにある`Docker Desktop`アプリケーション(クジラにブロックが乗っているようなアイコン)を開きます。
 
-<img src="https://res.cloudinary.com/dpnkkfkox/image/upload/v1627698700/docker-icon_g2i8ze.png" width="100" alt="Docker Icon">
+![Docker Icon](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627698700/docker-icon_g2i8ze.png)
 
 `Preferences...`を押してください。
 
+![Docker Task Bar](./../public/docker/task-bar.png)
 <img src="./../public/docker/task-bar.png" width="320" alt="Docker Task Bar">
 
 `Docker Engine` を選択してください。
