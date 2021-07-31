@@ -1,3 +1,7 @@
+---
+title: "Dockerを使ってRuby on Railsの環境構築をしよう"
+---
+
 # Docker
 
 本チャプターの目的はDockerというものを使ってRuby on Railsの環境構築をすることです。
