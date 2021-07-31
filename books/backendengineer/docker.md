@@ -743,7 +743,7 @@ Use Ctrl-C to stop
 
 この画面が見えていれば、OKです！
 
-<img src="./../public/docker/rails-hello.png" width="320" alt=" Yay! You’re on Rails!">
+![Yay! You’re on Rails!](https://storage.googleapis.com/zenn-user-upload/04553fa43fe37d4e75bef75d.png)
 
 いつもどおり、`Ctrl+C`でサーバーを落として、コンテナから抜けましょう。
 
