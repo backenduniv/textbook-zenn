@@ -1,19 +1,23 @@
+---
+title: "テストコードを書きながら開発しよう | RSpecの基本的な書き方"
+---
+
 # RSpec
 
 ここからは、いままでの小さなプログラムではなく、より複雑なプログラムを書く準備をしていきます。
 
 ## セットアップ
 
-`~/code/burning-tech`に移動してください。
+`~/code/backenduniv`に移動してください。
 
 ```sh
-$ cd ~/code/burning-tech
+$ cd ~/code/backenduniv
 ```
 
 教材リポジトリをクローンします。
 
 ```sh
-$ git clone https://github.com/burning-tech/rspec-training.git
+$ git clone https://github.com/backenduniv/rspec-training.git
 $ cd rspec-training
 ```
 
@@ -735,7 +739,7 @@ RUN bundle install
 
 左下の`Dev Container: Existing Docker Compose (...`をクリックしてください。
 
-![Rebuild Container](./../public/rspec/rebuild-container.png)
+![Rebuild Container](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627719666/rebuild-container_jputcn.png)
 
 `Rebuild Container`をクリックしてください。
 
@@ -942,4 +946,5 @@ Finished in 0.00558 seconds (files took 0.08207 seconds to load)
 
 Fizz Buzzをコーディングするすべての準備が整いました。
 
+次のチャプターでは実際に、
 非常に難解と思われたFizz BuzzをRSpecの力を借りていともかんたんに解いていきます。
