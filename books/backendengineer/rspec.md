@@ -938,7 +938,7 @@ Finished in 0.00558 seconds (files took 0.08207 seconds to load)
 
 `Ruby on Rails`の作者である`DHH`は`RSpec`が好きではないことで有名です。
 
-<https://twitter.com/dhh/status/647385298985447424>
+https://twitter.com/dhh/status/647385298985447424
 
 記法が嫌いなようです。
 
