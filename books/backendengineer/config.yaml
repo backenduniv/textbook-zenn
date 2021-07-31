@@ -4,6 +4,6 @@ topics: ["Ruby on Rails", "Ruby", "Docker"] # トピック（5つまで）
 published: false # falseだと下書き
 price: 0 # 有料の場合200〜5000
 chapters:
-  - git
   - terminal
+  - git
   - docker
