@@ -1,3 +1,7 @@
+---
+title: "コードを書く環境を整えよう | VS Codeのセットアップ"
+---
+
 # Visual Studio Code
 
 今まではインタラクティブな環境でSQLやRubyを書いてきました。
@@ -40,7 +44,7 @@ VSCodeを下記のリンクからインストールします。下記のリン�
 
 下記のような画面が表示されていると思います。
 
-![VS Code](./../public/vscode/vs-code.png)
+![VS Code](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/vs-code_tnobng.png)
 
 ## セットアップ
 
@@ -128,7 +132,7 @@ Dockerコンテナ内での`/app`でファイルを書き換えても、Docker�
 
 開いたらそのディレクトリにどんなファイルがあるか左側に表示されているはずです。
 
-![File Tree](./../public/vscode/file-tree.png)
+![File Tree](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718567/vscode/hide-file-tree_ibuotj.png)
 
 これを**ファイルツリー**といいます。
 
@@ -138,7 +142,7 @@ Dockerコンテナ内での`/app`でファイルを書き換えても、Docker�
 
 下記で示す箇所をクリックすると非表示にできます。
 
-![Hide](./../public/vscode/hide-file-tree.png)
+![Hide](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718567/vscode/hide-file-tree_ibuotj.png)
 
 ### ファイルの作成
 
@@ -146,14 +150,14 @@ Dockerコンテナ内での`/app`でファイルを書き換えても、Docker�
 
 入力画面に移ったと思います。
 
-![New file](./../public/vscode/new-file.png)
+![New file](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/new-file_sdyn3j.png)
 
 適当に入力して保存してみましょう。
 
 `Cmd` + `S`キーを押下してください。
 
 
-![Save](./../public/vscode/save.png)
+![Save](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/save_vdseou.png)
 
 どんな名前でどこに保存するかを選んで保存してください。
 
@@ -178,11 +182,11 @@ Dockerコンテナ内での`/app`でファイルを書き換えても、Docker�
 
 `Cmd` + `P`キーを押下してください。
 
-![File Search](./../public/vscode/file-search.png)
+![File Search](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/file-search_avxvpj.png)
 
 入力バーが表示されるのでここに`docker`と入力してみましょう。
 
-![File Search Docker](./../public/vscode/file-search-with-docker.png)
+![File Search Docker](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/file-search-with-docker_yazmky.png)
 
 `docker`にマッチしたファイルが表示されました。
 
@@ -196,7 +200,7 @@ Dockerコンテナ内での`/app`でファイルを書き換えても、Docker�
 
 出てきた入力バーに`app`と入れてみましょう。マッチしたファイルが表示されます。
 
-![Search Keyword](./../public/vscode/search-keyword.png)
+![Search Keyword](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/search-keyword_gofcwz.png)
 
 単一のファイル内だけで検索したい場合は、ファイルを開き、`Cmd` + `F`キーでできます。
 
@@ -214,25 +218,25 @@ Dockerコンテナ内の中でVS Codeを直接開き、開発できます。
 
 VS Codeが下記のような画面になりますので再度、`Insall`をクリックしてください。
 
-![Install Remote Container](./../public/vscode/install-remote-container.png)
+![Install Remote Container](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/install-remote-container_evvamk.png)
 
 インストールが完了しました。
 
 VS Codeに下記画像の赤枠で囲ったボタンが表示されるのでクリックしてください。
 
-![Remote Container](./../public/vscode/remote-container.png)
+![Remote Container](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/install-remote-container_evvamk.png)
 
 下記のような画面になります。これがRemote Containerの操作メニューです。
 
-![Remote container menu](./../public/vscode/remote-container-menu.png)
+![Remote container menu](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/remote-container-menu_yuggsd.png)
 
 `Open Folder in Container`をクリックしてください。
 
-![Open Folder in Container](./../public/vscode/open-folder-in-container.png)
+![Open Folder in Container](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718566/vscode/open-folder-in-container_eklgu7.png)
 
 `Open`を押すと下記のようにどのようにコンテナを起動するか選択する画面になります。
 
-![From Docker Compose](./../public/vscode/from-docker-compose.png)
+![From Docker Compose](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718565/vscode/from-docker-compose_dqu3z8.png)
 
 必ず、`From docker-compose.yml`をクリックしてください。
 
@@ -240,11 +244,11 @@ VS Codeに下記画像の赤枠で囲ったボタンが表示されるのでク�
 
 Dockerコンテナの起動中は下記のよう画面になります。
 
-![Start Container](./../public/vscode/start-container.png)
+![Start Container](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718565/vscode/start-container_ltai8q.png)
 
 起動が完了すると、下記のようにファイルツリーが表示されます。
 
-![File Tree in Container](./../public/vscode/file-tree-in-container.png)
+![File Tree in Container](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718565/vscode/file-tree-in-container_ffjxof.png)
 
 今見えているファイルはコンテナ内のファイルです。
 
@@ -256,11 +260,11 @@ Dockerコンテナの起動中は下記のよう画面になります。
 
 左下の`Dev Container: Existing Docker Compose (...`をクリックしてください。
 
-![Dev Container](./../public/vscode/dev-container-existing.png)
+![Dev Container](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718565/vscode/dev-container-existing_uufrjx.png)
 
 `Close Remote Connection` をクリックしてください。
 
-![Close Remote Container](./../public/vscode/close-remote-container.png)
+![Close Remote Container](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718565/vscode/close-remote-container_kp24tp.png)
 
 `Remote`というのはここではコンテナ内を示しています。
 
@@ -270,7 +274,7 @@ Dockerコンテナの起動中は下記のよう画面になります。
 
 Remote Containerのボタンをクリックして、メニューを開くと、`vscode-training`というコンテナがあることがわかります。
 
-![Still exist](./../public/vscode/container-still-exists.png)
+![Still exist](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718565/vscode/container-still-exists_yslrhi.png)
 
 これはさきほど起動していたコンテナです。
 
@@ -278,15 +282,15 @@ Remote Containerのボタンをクリックして、メニューを開くと、`
 
 `vscode-training`にマウスカーソルを合わせると`X`ボタンが表示されますので削除します。
 
-![Remove button](./../public/vscode/remove-container-button.png)
+![Remove button](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718564/vscode/remove-container-button_uf0ijn.png)
 
 `Remove`をクリックしてください。
 
-![Remove button](./../public/vscode/remove-container.png)
+![Remove button](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718564/vscode/remove-container_ma8sr4.png)
 
 コンテナが削除されました。
 
-![Not found](./../public/vscode/container-already-not-found.png)
+![Not found](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718564/vscode/container-already-not-found_eypez7.png)
 
 もう一度、コンテナを立ち上げてみましょう。
 
@@ -296,7 +300,7 @@ Remote Containerのボタンをクリックして、メニューを開くと、`
 
 すると、下記のように右下にインフォメーションが表示されます。
 
-![Re open](./../public/vscode/reopen-in-container.png)
+![Re open](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718564/vscode/reopen-in-container_wczc7y.png)
 
 `Reopen in Container`をクリックしてください。
 
@@ -312,8 +316,6 @@ Remote Containerのボタンをクリックして、メニューを開くと、`
 
 あなたには`Google`があります。ぜひ、いろいろなことを調べてみてください。
 
-Appendixに、おすすめの拡張機能を記載していますので、この先に進む前にすべて入れておいたほうが良いでしょう。
-
 ## はじめてのファイル実行
 
 それではRubyプログラムをファイルに書いていきましょう。
@@ -328,7 +330,7 @@ touch hello.rb
 
 作成したファイルを`VS Code`で開いてください。
 
-![First ruby file](./../public/vscode/first-ruby-file.png)
+![First ruby file](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718564/vscode/first-ruby-file_quywbv.png)
 
 `Hello`と出力するRubyプログラムを書いてみましょう。
 
@@ -336,7 +338,7 @@ touch hello.rb
 puts 'Hello'
 ```
 
-![Hello](./../public/vscode/hello.png)
+![Hello](https://res.cloudinary.com/dpnkkfkox/image/upload/v1627718564/vscode/hello_ivrvb3.png)
 
 では、実行してみましょう。
 
@@ -408,5 +410,3 @@ Rubyのファイル実行をVS Codeおよび、Docker、Remote Containerとと�
 本日作成したコンテナ等は今後使用しないため、削除して構いません。
 
 (削除方法はわかりますね？)
-
-VS Codeのより詳細な設定はAppendixを参照してください。
