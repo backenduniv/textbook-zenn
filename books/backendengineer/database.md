@@ -81,10 +81,10 @@ RDBには複数の実装がありそれぞれの実装を**RDBMS**(Relational Da
 
 今回からすべてのセットアップをDockerを使用していきます。
 
-`~/code/burning-tech`に移動してください。
+`~/code/backenduniv`に移動してください。
 
 ```sh
-$ cd ~/code/burning-tech
+$ cd ~/code/backenduniv
 ```
 
 教材リポジトリをダウンロードします。
@@ -94,7 +94,7 @@ $ cd ~/code/burning-tech
 `git clone`はremoteリポジトリを現在のディレクトリ配下にダウンロードします。
 
 ```sh
-$ git clone https://github.com/burning-tech/rdbms-training.git
+$ git clone https://github.com/backenduniv/rdbms-training.git
 $ cd rdbms-training
 ```
 
@@ -153,7 +153,7 @@ MySQLを操作できるようになりました。
 
 本チャプターで扱うSQLはすべて下記に記述されています。
 
-<https://github.com/burning-tech/rdbms-training/tree/main/src>
+<https://github.com/backenduniv/rdbms-training/tree/main/src>
 
 ### MySQLサーバーとMySQLクライアント
 
@@ -348,7 +348,7 @@ mysql> SELECT e.last_name '姓',
 
 ## データベースの作成
 
-[SQL](https://github.com/burning-tech/rdbms-training/blob/main/src/create_database.sql)
+[SQL](https://github.com/backenduniv/rdbms-training/blob/main/src/create_database.sql)
 
 さきほどのexampleデータは`example`というデータベースを作成していました。
 
@@ -420,7 +420,7 @@ mysql> SELECT database();
 
 ## テーブルの作成
 
-[SQL](https://github.com/burning-tech/rdbms-training/blob/main/src/create_table.sql)
+[SQL](https://github.com/backenduniv/rdbms-training/blob/main/src/create_table.sql)
 
 テーブルを作成する前にデータ型というものについて説明します。
 
@@ -589,7 +589,7 @@ CREATE TABLE carts (
 
 ## レコードの挿入
 
-[SQL](https://github.com/burning-tech/rdbms-training/blob/main/src/insert_record.sql)
+[SQL](https://github.com/backenduniv/rdbms-training/blob/main/src/insert_record.sql)
 
 レコードの挿入には`INSERT INTO`を使用します。
 
@@ -625,7 +625,7 @@ Records: 4  Duplicates: 0  Warnings: 0
 
 ## レコードの取得
 
-[SQL](https://github.com/burning-tech/rdbms-training/blob/main/src/select_record.sql)
+[SQL](https://github.com/backenduniv/rdbms-training/blob/main/src/select_record.sql)
 
 それでは`INSERT`したレコードを取得してみましょう。
 
@@ -788,7 +788,7 @@ mysql> SELECT *
 
 ## レコードの更新
 
-[SQL](https://github.com/burning-tech/rdbms-training/blob/main/src/update_record.sql)
+[SQL](https://github.com/backenduniv/rdbms-training/blob/main/src/update_record.sql)
 
 データベースに保存されているデータを更新してみましょう。
 
@@ -888,7 +888,7 @@ mysql> SELECT *
 
 ## レコードの削除
 
-[SQL](https://github.com/burning-tech/rdbms-training/blob/main/src/delete_record.sql)
+[SQL](https://github.com/backenduniv/rdbms-training/blob/main/src/delete_record.sql)
 
 レコードの削除は`DELETE FROM`で行います。
 
@@ -923,7 +923,7 @@ mysql> SELECT * FROM carts;
 
 ## リレーション
 
-[SQL](https://github.com/burning-tech/rdbms-training/blob/main/src/join.sql)
+[SQL](https://github.com/backenduniv/rdbms-training/blob/main/src/join.sql)
 
 ### FOREIGN KEY
 
