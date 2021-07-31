@@ -50,16 +50,16 @@ VSCodeを下記のリンクからインストールします。下記のリン�
 
 いったんVS Codeから離れてターミナルの操作に移りましょう。
 
-`~/code/burning-tech`に移動してください。
+`~/code/backenduniv`に移動してください。
 
 ```sh
-$ cd ~/code/burning-tech
+$ cd ~/code/backenduniv
 ```
 
 教材リポジトリをクローンします。
 
 ```sh
-$ git clone https://github.com/burning-tech/vscode-training.git
+$ git clone https://github.com/backenduniv/vscode-training.git
 $ cd vscode-training
 ```
 
@@ -94,7 +94,7 @@ services:
 
 DockerfileはRubyイメージの`FROM`命令のみが記載されています。
 
-`docker-compose.yml`の`build .`の`.`はカレントディレクトリ(現在のディレクトリ、つまり`~/code/burning-tech/vscode-training`)を示します。
+`docker-compose.yml`の`build .`の`.`はカレントディレクトリ(現在のディレクトリ、つまり`~/code/backenduniv/vscode-training`)を示します。
 
 カレントディレクトリから`Dockerfile`を探し、見つけたらそれを元にDockerイメージをビルドします。
 
@@ -107,7 +107,7 @@ DockerfileはRubyイメージの`FROM`命令のみが記載されています。
 
 両者のファイルが共有されるように命令します。
 
-Dockerコンテナ内での`/app`でファイルを書き換えても、Dockerコンテナ外の`~/code/burning-tech/vscode-training`でファイルを書き換えても、お互いにファイルが共有されることになります。
+Dockerコンテナ内での`/app`でファイルを書き換えても、Dockerコンテナ外の`~/code/backenduniv/vscode-training`でファイルを書き換えても、お互いにファイルが共有されることになります。
 
 コンテナを消しても、ローカル(`Docker`コンテナの外)のファイルは残ります。
 
@@ -126,7 +126,7 @@ Dockerコンテナ内での`/app`でファイルを書き換えても、Docker�
 
 ### ワークスペース
 
-`Cmd`+`O`キーを押下して、作業を行なう`~/code/burning-tech/vscode-training`ディレクトリを開いてください。
+`Cmd`+`O`キーを押下して、作業を行なう`~/code/backenduniv/vscode-training`ディレクトリを開いてください。
 
 この作業を行なうディレクトリを**ワークスペース**といいます。
 
@@ -296,7 +296,7 @@ Remote Containerのボタンをクリックして、メニューを開くと、`
 
 コンテナから外に出ることで、ワークスペースが、解除されています。
 
-`Cmd` + `O`で再度、`~/code/burning-tech/vscode-training`を開いてください。
+`Cmd` + `O`で再度、`~/code/backenduniv/vscode-training`を開いてください。
 
 すると、下記のように右下にインフォメーションが表示されます。
 
@@ -352,11 +352,11 @@ Rubyプログラムの実行は`ruby ファイル名`で実行できます。
 
 ではコンテナの中にある`ruby`を呼び出してファイルを実行してみましょう。
 
-念の為、カレントディレクトリが`~/code/burning-tech-dev/vscode-training/`であることを確認してください。
+念の為、カレントディレクトリが`~/code/backenduniv-dev/vscode-training/`であることを確認してください。
 
 ```sh
 $ pwd
-/Users/taro/code/burning-tech-dev/vscode-training
+/Users/taro/code/backenduniv-dev/vscode-training
 ```
 
 ```sh
