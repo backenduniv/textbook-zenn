@@ -271,11 +271,10 @@ docker.io/library/ubuntu:latest
 `Preferences...`を押してください。
 
 ![Docker Task Bar](https://storage.googleapis.com/zenn-user-upload/f55db320c597f96145affc86.png)
-<img src="./../public/docker/task-bar.png" width="320" alt="Docker Task Bar">
 
 `Docker Engine` を選択してください。
 
-<img src="./../public/docker/docker-engine.png" alt="Docker Engine">
+![Docker Engine](https://storage.googleapis.com/zenn-user-upload/fca190d50e3645d56d3f68f2.png)
 
 テキストフィールドに下記に変更してください。
 
