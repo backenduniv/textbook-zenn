@@ -126,9 +126,7 @@ $ git init
 Initialized empty Git repository in /Users/taro/code/backenduniv/docker-training/.git/
 ```
 
-今後もなるべくGitで細かくコミットをしていく練習をしましょう。
-
-Gitのコミットの粒度や、コミットメッセージ等に悩んだ場合はAppendixを参照してください。
+今後もなるべく**Gitで細かくコミットをしていく練習**をしましょう。
 
 ### Dockerを体感する
 
@@ -1046,7 +1044,7 @@ $ git commit -m "add compose-example"
 
 ## おわりに
 
-Dockerやコンテナ技術は毎日のように触れるものになると思います。Dockerを使ったツールやその他詳細はAppendixを参照してください。
+Dockerやコンテナ技術は毎日のように触れるものになると思います。
 
 ちなみにDockerで作成したすべてのもの<br>
 (Dockerイメージ、Dockerコンテナ、Dockerボリューム、Dockerネットワーク)<br>
@@ -1057,3 +1055,6 @@ $ docker system prune -a --volumes
 ```
 
 Dockerがうまく動かなかったり、ディスク容量を逼迫した場合はやってみてください。
+
+Dockerについてはこのあたりにして、
+次回は、データベースについて学んでいきましょう！
