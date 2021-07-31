@@ -107,14 +107,14 @@ Docker version 20.10.5, build 55c4c88
 
 ## セットアップ
 
-`~/code/burning-tech`に`docker-training`というディレクトリを作成し、その中に移動します。
+`~/code/backenduniv`に`docker-training`というディレクトリを作成し、その中に移動します。
 
 ```sh
-$ cd ~/code/burning-tech
+$ cd ~/code/backenduniv
 $ mkdir docker-training
 $ cd docker-training
 $ pwd
-/Users/taro/code/burning-tech/docker-training
+/Users/taro/code/backenduniv/docker-training
 ```
 
 前回学んだGitを使っていきましょう。
@@ -123,7 +123,7 @@ $ pwd
 
 ```sh
 $ git init
-Initialized empty Git repository in /Users/taro/code/burning-tech/docker-training/.git/
+Initialized empty Git repository in /Users/taro/code/backenduniv/docker-training/.git/
 ```
 
 今後もなるべくGitで細かくコミットをしていく練習をしましょう。
@@ -140,7 +140,7 @@ Dockerをざっくりと体感して、どんなものなのか理解してい�
 $ mkdir example
 $ cd example
 $ pwd
-/Users/taro/code/burning-tech/docker-training/example
+/Users/taro/code/backenduniv/docker-training/example
 ```
 
 ## Dockerfileの作成
@@ -262,7 +262,7 @@ docker.io/library/ubuntu:latest
 
 そうなってしまった場合は、メニューバーにある`Docker Desktop`アプリケーション(クジラにブロックが乗っているようなアイコン)を開きます。
 
-<img src="./../public/docker/docker-icon.png" width="100" alt="Docker Icon">
+<img src="https://res.cloudinary.com/dpnkkfkox/image/upload/v1627698700/docker-icon_g2i8ze.png" width="100" alt="Docker Icon">
 
 `Preferences...`を押してください。
 
@@ -438,7 +438,7 @@ $
 
 ```sh
 $ echo $PWD
-/Users/taro/code/burning-tech/docker-training/example
+/Users/taro/code/backenduniv/docker-training/example
 ```
 
 `$PWD`とは**環境変数**というものです。
@@ -526,10 +526,10 @@ Ruby on Railsアプリケーションを作成するのに必要最小限の設�
 
 特にRubyやRuby on Railsの知識はいらないので安心してください。
 
-まず、`~/code/burning-tech/docker-training`に`rails-example`というディレクトリを作成しましょう。
+まず、`~/code/backenduniv/docker-training`に`rails-example`というディレクトリを作成しましょう。
 
 ```sh
-$ mkdir ~/code/burning-tech/docker-training/rails-example
+$ mkdir ~/code/backenduniv/docker-training/rails-example
 ```
 
 `rails-example`ディレクトリにDockerfileと`Gemfile`、`Gemfile.lock`を作成しましょう。
@@ -663,7 +663,7 @@ CONTAINER ID   IMAGE            COMMAND       CREATED          STATUS           
 
 ```sh
 $ pwd
-/Users/taro/code/burning-tech/docker-training
+/Users/taro/code/backenduniv/docker-training
 $ docker image build rails-example -t rails-example:latest
 [+] Building 3.9s (11/11) FINISHED
  => [internal] load build definition from Dockerfile
@@ -829,10 +829,10 @@ $ git commit -m "add rails-example"
 Ruby on Railsのコンテナからデータベースのコンテナにアクセスしたりできるようになります。
 
 
-まず、`~/code/burning-tech/docker-training`に`compose-example`というディレクトリを作成しましょう。
+まず、`~/code/backenduniv/docker-training`に`compose-example`というディレクトリを作成しましょう。
 
 ```sh
-$ mkdir ~/code/burning-tech/docker-training/compose-example
+$ mkdir ~/code/backenduniv/docker-training/compose-example
 ```
 
 ### docker-compose.yml
@@ -932,7 +932,7 @@ services:
 
 ```sh
 $ pwd
-/Users/taro/code/burning-tech/docker-training
+/Users/taro/code/backenduniv/docker-training
 $ cd compose-example
 $ ls
 Dockerfile              Gemfile                 Gemfile.lock            docker-compose.yml
@@ -1027,7 +1027,7 @@ $ docker compose down --volumes
 
 ```sh
 $ pwd
-/Users/taro/code/burning-tech/docker-training/compose-example
+/Users/taro/code/backenduniv/docker-training/compose-example
 $ rm -rf .git
 ```
 
