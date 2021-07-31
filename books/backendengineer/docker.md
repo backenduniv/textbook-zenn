@@ -1,14 +1,10 @@
----
-title: "DockerでRuby on Railsの環境構築をしよう"
----
-
 # Docker
 
 本チャプターの目的はDockerというものを使ってRuby on Railsの環境構築をすることです。
 
 Dockerの説明には、メモリ、CPU、その他技術的な用語が多く含まれます。
 
-その点はあまり気にせず、Dockerの使い方とRuby on Railsの環境構築ができるようになることのみに注力するようにしてください。
+今回はその点はあまり気にせず、**Dockerの使い方とRuby on Railsの環境構築にのみ**に注力するようにしてください。
 
 ## Docker とは
 
