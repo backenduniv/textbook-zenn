@@ -578,7 +578,7 @@ example.txt
 `git merge`というコマンドを使います。
 
 ```sh
-$ git merge example -m "merge example branch commit"
+$ git merge --no-f example -m "merge example branch"
 Merge made by the 'recursive' strategy.
  example2.txt | 0
  1 file changed, 0 insertions(+), 0 deletions(-)
