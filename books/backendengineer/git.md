@@ -716,7 +716,7 @@ $ git commit -m "fourth commit"
 [main dc4ecf4] fourth commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 example3.txt
-$ git merge example -m "second merge commit"
+$ git merge --no-f example -m "second merge commit"
 Merge made by the 'recursive' strategy.
  example2.txt | 0
  1 file changed, 0 insertions(+), 0 deletions(-)
