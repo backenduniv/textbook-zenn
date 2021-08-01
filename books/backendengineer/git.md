@@ -958,7 +958,7 @@ git branch -a
 では`remote`の`main`ブランチ(`origin/main`ブランチ)を`local`の`main`ブランチに取り込んでみましょう。
 
 ```sh
-$ git merge origin/main -m "merge origin main branch commit"
+$ git merge --no-f origin/main -m "merge origin main branch commit"
 Merge made by the 'recursive' strategy.
  example4.txt | 1 +
  1 file changed, 1 insertion(+)
