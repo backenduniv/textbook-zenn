@@ -1,3 +1,7 @@
+---
+title: "Rails入門 | Railsのコードに触れていこう"
+---
+
 # Ruby on Rails
 
 本チャプターからRuby on Railsを使用してWebアプリケーションの開発に入っていきます。
@@ -52,20 +56,20 @@ WebサイトのURLからインターネットを返して、それらのコン�
 
 この章では、リポジトリを一から作っていきます。
 
-`~/code/burning-tech`に移動してください。
+`~/code/backenduniv`に移動してください。
 
 ```sh
-$ cd ~/code/burning-tech
+$ cd ~/code/backenduniv
 ```
 
 教材リポジトリをクローンします。
 
 ```sh
-$ git clone https://github.com/burning-tech/rails-training.git
+$ git clone https://github.com/backenduniv/rails-training.git
 $ cd rails-training
 ```
 
-最終的な成果物は[rails-training](https://github.com/burning-tech/rails-training.git)にありますので動かなかったり、わからない箇所があれば参考にしてみてください。
+最終的な成果物は[rails-training](https://github.com/backenduniv/rails-training.git)にありますので動かなかったり、わからない箇所があれば参考にしてみてください。
 
 本チャプターでもいつものように適宜、`git`管理をしてください。
 
@@ -73,7 +77,7 @@ $ cd rails-training
 $ git init
 ```
 
-そして`~/code/burning-tech/rails-training`をワークスペースとしてVS Codeで開いてください。
+そして`~/code/backenduniv/rails-training`をワークスペースとしてVS Codeで開いてください。
 
 ## Railsアプリに必要な4つのファイルの作成
 
@@ -95,7 +99,7 @@ $ touch Gemfile
 $ touch Gemfile.lock
 ```
 
-<https://github.com/burning-tech-dev/rails-training/tree/first>に4つのファイルをおいてあります。
+<https://github.com/backenduniv-dev/rails-training/tree/first>に4つのファイルをおいてあります。
 
 わからなければ参考にしてください。
 
@@ -489,8 +493,6 @@ $ docker compose build
 
 `docker-compose.yml`のサービス名を指定してください。
 
-この詳細な説明は割愛しますが、知りたい場合はAppendixを参照してください。
-
 Dockerが裏で色々やってくれるおかげで、`db`を指定できると考えてください。
 
 `config/database.yml`の下記のような記述を見てください。
@@ -541,7 +543,7 @@ $ docker compose up
 
 これで開発への準備が整いました！
 
-最終的なコードは<https://github.com/burning-tech-dev/rails-training/tree/hello>で確認できます。
+最終的なコードは<https://github.com/backenduniv-dev/rails-training/tree/hello>で確認できます。
 
 ## Railsの開発を体感する
 
@@ -1435,4 +1437,4 @@ HTTPリクエストをブラウザが送信してからHTTPレスポンスを受
 
 次回から、より踏み込んで`Rails`アプリケーションを開発していきます。
 
-最終的なコードは<https://github.com/burning-tech-dev/rails-training/tree/scaffold>で確認できます。
+最終的なコードは<https://github.com/backenduniv-dev/rails-training/tree/scaffold>で確認できます。
